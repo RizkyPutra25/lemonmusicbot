@@ -16,35 +16,35 @@ GROUPS_TO_JOIN = [
 class Userbot:
     def __init__(self):
         self.one = Client(
-            "HasiiAssis1",
+            "Lemonassis1",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            "HasiiAssis2",
+            "Lemonassis2",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            "HasiiAssis3",
+            "Lemonassis3",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            "HasiiAssis4",
+            "Lemonassis4",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            "HasiiAssis5",
+            "Lemonassis5",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING5),
@@ -74,7 +74,7 @@ class Userbot:
 
             try:
                 await client.send_message(
-                    config.LOGGER_ID, f"Hasii's Assistant {index} Started"
+                    config.LOGGER_ID, f"Lemon Assistant {index} Started"
                 )
             except Exception:
                 LOGGER(__name__).error(
@@ -92,7 +92,7 @@ class Userbot:
             LOGGER(__name__).error(f"Failed to start Assistant {index}: {e}")
 
     async def start(self):
-        LOGGER(__name__).info("Starting Hasii's Assistants...")
+        LOGGER(__name__).info("Starting Lemon Assistants...")
         await self.start_assistant(self.one, 1)
         await self.start_assistant(self.two, 2)
         await self.start_assistant(self.three, 3)
