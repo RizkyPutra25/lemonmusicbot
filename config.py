@@ -47,7 +47,7 @@ YTDLP_AUDIO_FORMAT = getenv(
     "YTDLP_AUDIO_FORMAT", "bestaudio[abr>=256]/bestaudio/best"
 ).strip()
 YTDLP_VIDEO_FORMAT = getenv(
-    "YTDLP_VIDEO_FORMAT", "best[height<=?1080][width<=?1920]"
+    "YTDLP_VIDEO_FORMAT", "best[height<=720]/best"
 ).strip()
 YTDLP_PREFERRED_AUDIO_BITRATE = getenv(
     "YTDLP_PREFERRED_AUDIO_BITRATE", "320"
