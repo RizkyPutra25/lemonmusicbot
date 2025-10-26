@@ -14,10 +14,10 @@ API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@Hasindu_Lakshan")
-BOT_USERNAME = getenv("BOT_USERNAME", "HasiiXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐇ᴀsɪɪ ✘ 𝙼ᴜsɪᴄ˼")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxhasii")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@aslemonbgt")
+BOT_USERNAME = getenv("BOT_USERNAME", "LemonRobot")
+BOT_NAME = getenv("BOT_NAME", "˹Lemon ✘ 𝙼ᴜsɪᴄ˼")
+ASSUSERNAME = getenv("ASSUSERNAME", "monmusic")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
@@ -69,8 +69,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/musicxhasii")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/musicxhasii")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/monubotoffciall")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+muNM3uQgXDw4YmNl")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
