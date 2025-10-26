@@ -13,7 +13,7 @@ API_ID = int(getenv("API_ID", 27798659))
 API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
+OWNER_ID = int(getenv("OWNER_ID", 1277151613))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@aslemonbgt")
 BOT_USERNAME = getenv("BOT_USERNAME", "LemonRobot")
 BOT_NAME = getenv("BOT_NAME", "˹Lemon ✘ 𝙼ᴜsɪᴄ˼")
